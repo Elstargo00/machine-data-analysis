@@ -14,7 +14,7 @@ In this tutorial I'll focus only on "voltage" and "current". There are so many o
 Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess data.
 
 1. The data lose its significances via transfering process:
-[PZEM-004T sensor] --> [Mega Arduino] --serial RX/TX serial communication--> [Node Mcu] --> [cloud storage] --> [frontend] --> [export as PDF]
+[PZEM-004T sensor] --> [Mega Arduino] --RX/TX serial communication--> [Node Mcu] --> [cloud storage] --> [frontend] --> [export as PDF]
 2. We work with couple of team and it's not that consistency. The fun part is our initial data reading from the sensor started as float but end up becoming integer. Can you imagine how mess it is?
 3. We have a huge knowledge gap to the motor/machine operating in the factory.
 
