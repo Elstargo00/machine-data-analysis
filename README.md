@@ -9,7 +9,7 @@ https://innovatorsguru.com/wp-content/uploads/2019/06/PZEM-004T-V3.0-Datasheet-U
 
 In this tutorial I'll focus only on "voltage" and "current". There are so many obstacles applying IoT device with 3-phases electricity in the factory. The data won't be that smooth either. Here is some part of data:
 
-<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/somepart_data.png" width="700" height="500">
+<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/somepart_data.png" width="800" height="400">
 
 Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess data.
 
