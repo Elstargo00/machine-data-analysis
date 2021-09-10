@@ -11,7 +11,7 @@ In this tutorial I'll focus only on "voltage" and "current". There are so many o
 
 ![alt text](https://github.com/Elstargo00/machine-data-analysis/blob/main/somepart_data.png)
 
-Yeahh, it's pretty ugly. There are reasons that we get such a mess data.
+Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess data.
 
 1. The data lose its significances via transfering process:
 [PZEM-004T sensor] --> [Mega Arduino] --serial RX/TX serial communication--> [Node Mcu] --> [cloud storage] --> [frontend] --> [export as PDF]
