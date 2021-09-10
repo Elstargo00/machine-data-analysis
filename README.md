@@ -21,7 +21,9 @@ Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess da
 Let's just leave the problems behind and focusing on making progress.
 
 ## How can we deal with the ugly data by not knowing anything about the machine or load inside?
-### "Our goal is to get working schedule of the machine"
+### Our goal is to get "machine working schedule"
 
+Let's take a quick look at the data.
+Notice the value of -1 in the table is just the logic behind implying that the "NaN" value has been sent from the sensor. We can interpret it as the machine is turning off. There are cases that positive voltage comes along with zero current. From this we really don't know what happend with the data. The fact that we know there are two event classes including:
 
-Notice the value -1 in the table is just the logic behind implying that the "NaN" value has been sent from the sensor. We can interpret it as the machine is turning off. 
+"MACHINE IS ON" and "MACHINE IS OFF"
