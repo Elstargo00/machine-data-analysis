@@ -20,7 +20,8 @@ Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess da
 
 Let's just leave the problems behind and focusing on making progress.
 
-## 1. How can we deal with the ugly data by not knowing anything about the machine or load inside?
+## How can we deal with the ugly data by not knowing anything about the machine or load inside?
+### "Our goal is to get working schedule of the machine"
 
 
 Notice the value -1 in the table is just the logic behind implying that the "NaN" value has been sent from the sensor. We can interpret it as the machine is turning off. 
