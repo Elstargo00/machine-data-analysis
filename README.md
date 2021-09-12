@@ -26,14 +26,10 @@ Let's just leave the problems behind and focusing on making progress.
 Let's take a quick look at the data.
 Notice the value of -1 in the table is just the logic behind implying that the "NaN" value has been sent from the sensor. We can interpret it as the machine is turning off. There are cases that positive voltage comes along with zero current. From this we really don't know what happend with the data. The fact that we know there are two event classes including: "MACHINE IS ON" and "MACHINE IS OFF"
 
-You can follow the process in Google Colab here 
+The analysing process have been described here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vX9_k7IUAlyEpDuMpe55fUWbSmTmmpRN?usp=sharing)
-I wrote the comments to explain the steps.
-
-Finally, we get working schedule of the machine R1L1-S1 from low quality data.
-
-<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/R1L1-S1_working_schedule.png?raw=true" width="1500" height="700">
 
 
+Finally, we got the working schedule of the machine R1L1-S1 from non-perfect data.
 
-
+<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/R1L1-S1_working_schedule.png?raw=true" width="750" height="350">
