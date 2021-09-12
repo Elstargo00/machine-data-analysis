@@ -30,8 +30,7 @@ You can follow the process in Google Colab here: . I wrote the comments to expla
 
 Finally, we get working schedule of the machine R1L1-S1 from low quality data.
 
-
-
+<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/R1L1-S1_working_schedule.png?raw=true" width="400" height="400">
 
 
 
