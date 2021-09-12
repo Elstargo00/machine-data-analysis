@@ -32,4 +32,4 @@ The analysing process have been described here:
 
 Finally, we got the working schedule of the machine R1L1-S1 from non-perfect data.
 
-<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/R1L1-S1_working_schedule.png?raw=true" width="750" height="350">
+<img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/R1L1-S1_working_schedule.png?raw=true" width="1125" height="525">
