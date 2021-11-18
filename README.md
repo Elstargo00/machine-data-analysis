@@ -1,5 +1,9 @@
 # This repository presents data analysing method predicting working schedule of a machine in quarrying factory.
 
+<a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:adaboost-algorithm" href="/topics/adaboost-algorithm" title="Topic: adaboost-algorithm" data-view-component="true" class="topic-tag topic-tag-link">
+  adaboost-algorithm
+</a>
+
 In this repo, I'll briefly tell you about how we get the data and later focus on how we deal with it.
 
 We use PZEM-004T sensors to track each load inside the machine (totally 3 of them). And sent the data keeping in cloud storage.
