@@ -1,4 +1,4 @@
-# This repository presents data analysing method for predicting working schedule of a machine in quarrying factory.
+# This repository presents data analyzing method for predicting working schedule of a machine in quarrying factory.
 
 In this repo, I'll briefly tell you about how we get the data and later focus on how we deal with it.
 
