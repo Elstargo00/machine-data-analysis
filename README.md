@@ -11,7 +11,7 @@ There are so many obstacles applying IoT device with 3-phases electricity in the
 
 <img src="https://github.com/Elstargo00/machine-data-analysis/blob/main/somepart_data.png" width="800" height="400">
 
-The data shown the voltage and current sending by IoT device that've been installed with the machine R1L1-S1. Yeahh, it's pretty ugly. There're a couple of reasons that we get such a mess data.
+The data shows the voltage and current sending by IoT device, installed on the machine R1L1-S1. It's very messy. There're a couple of reasons that we get such a mess data.
 
 1. The data lose its significances via transfering process:
 [PZEM-004T sensor] --> [Mega Arduino] --RX/TX serial communication--> [Node Mcu] --> [cloud storage] --> [frontend] --> [export as PDF]
@@ -26,7 +26,7 @@ Let's just leave the problems behind and focusing on making progress.
 Let's take a quick look at the data.
 Notice the value of -1 in the table is just the logic behind implying that the "NaN" value has been sent from the sensor. We can interpret it as the machine is turning off. There are cases that positive voltage comes along with zero current. From this we really don't know what happend with the data. The fact that we know there are two event classes including: "MACHINE IS ON" and "MACHINE IS OFF"
 
-The analysing process have been described here:
+The analyzing process have been described here:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vX9_k7IUAlyEpDuMpe55fUWbSmTmmpRN?usp=sharing)
 
 
